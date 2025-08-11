@@ -1,0 +1,43 @@
+Documento “Octavio Lubo - Jandy Tete - Randy Fornaris”
+
+1. Actividades Realizadas
+Se creó el repositorio TODOAPP-GrupoX en la plataforma.
+Se invitó a los miembros del equipo y se clono en cada máquina.
+Cada estudiante del grupo creó su propia rama.
+Las funcionalidades fueron realizadas individualmente dentro de cada una de las ramas.
+Se creó una rama colectiva llamada grupo con el fin de integrar todo el trabajo.
+Se resolvieron los conflictos generados por cambios simultáneos en los archivos.
+Finalmente se eliminaron tanto las ramas individuales como la rama del grupo.
+
+2. Comandos GIT
+git clone <URL> = clonar el repositorio desde GitHub
+git checkout -b nombre-rama = crear y cambiar a una nueva rama
+git commit -m "mensaje" = confirmar los cambios con un mensaje descriptivo
+git push origin nombre-rama = subir la rama al repositorio remoto
+git branch se utiliza para gestionar las ramas
+git branch -m se utiliza para renombrar una rama local
+
+3. Conflicto
+Surgieron conflictos en el archivo task_model.py al intentar hacer merge debido a diferencias en el contenido de dicho archivo.
+El conflicto fue detectado en el mensaje:
+CONFLICT (content): Merge conflict in Task_model.py
+Se identificaron conflictos en otras ramas como main.py, ocasionados por edición.
+Para solucionarlo se combinaron las contribuciones de los desarrolladores, dejando el completo como atributo personal y se conservaron todas las funcionalidades.
+Finalmente los archivos fueron marcados como resuelto.
+
+4. Aportes individuales
+Integrante 1: Se encargó de desarrollar la opción para marcar las tareas como finalizadas, usando la función mark as complete y realizó las modificaciones necesarias en el archivo main.py
+Integrante 2: Implementó la funcionalidad para eliminar tareas con la función delete_task además de actualizar el contenido del archivo Readme.md
+Integrante 3: Reconoció manualmente conflicto utilizando los comandos git clone, remote task y posteriormente gestionó y resolvió dicho conflicto durante el proceso de integración
+
+5. Preguntas de reflexión
+1. ¿Cómo organizaron el trabajo en equipo para evitar conflictos?
+R/: Nos organizamos dividiendo la tarea en diferentes ramas y manteniendo buena comunicación entre todos.
+
+2. ¿Qué lección obtuvieron sobre cómo resolver conflictos en GIT?
+R/: Entendimos que los conflictos son comunes cuando se trabaja en equipo, pero git ofrece herramientas efectivas para solucionarlos.
+
+3. ¿Por qué consideras útil emplear Pull Requests en proyectos grupales?
+
+4. ¿De qué manera herramientas como CI/CD pueden optimizar el flujo de trabajo?
+R/: Utilizando CI/CD es posible automatizar tanto las pruebas como el proceso de despliegue, lo cual garantiza que el código funcione correctamente antes de integrarlo al proyecto final.
